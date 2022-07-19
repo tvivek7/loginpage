@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<section id="testimonial">
+    <div id="testimonial-carousel" class="carousel slide"  data-bs-ride="false" >
+      <div class="carousel-inner">
+       <div class="carousel-item active float-container">
+       
+
+        <div class="float-child" id="signin">
+          <div class="green">
+            <h1 class="heading1">Sign In</h1>
+            <p>or use your account</p>
+            <input class="btn btn-lg btn-outline-light" type="email" placeholder="E-mail">
+            <br>
+            <input class="btn btn-lg btn-outline-light" type="password" placeholder="Password">
+            <br>
+            <a class="forgotpass" href="https://urgesture.com/password/reset">Forgot Your Pasword?</a>
+            <br>
+            <button type="button" class="btn btn-lg btn-danger">SIGN IN</button>
+          </div>
+        </div>
+        
+        <div class="float-child" id="signup">
+          <div class="blue">
+            <h1 class="makeitwhite">Hello,Friend!</h1>
+            <p  class="makeitwhite">Enter your personal details and start journey with us</p>
+            <br>
+            <button type="button" class="btn btn-lg btn-light">SIGN UP</button>
+       
+          </div>
+        </div>
+    </div>
+
+
+       
+
+        <div class="carousel-item float-scontainer">
+
+            <div class="float-schild" id="signin2">
+              <div class="green2">
+                <h1>
+                    Welcome Back!
+                </h1>
+                <p>To keep connected with us please login with your personal info</p>
+                <button type="button" class="btn btn-lg btn-outline-light">SIGN IN</button>
+              </div>
+            </div>
+            
+            <div class="float-schild" id="signup2" >
+              <div class="blue2">
+                <h1>Account</h1>
+                <p>or use your e-mail for registration</p>
+                <input class="btn btn-lg btn-outline-light" type="name" placeholder="Name">
+                <input class="btn btn-lg btn-outline-light" type="email" placeholder="E-mail">
+                <input class="btn btn-lg btn-outline-light" type="password" placeholder="Password">
+                <input class="btn btn-lg btn-outline-light" type="password" placeholder="Confirm Password">
+                <p>Who are u?</p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAACBCAMAAADQfiliAAAAaVBMVEX///8AAAD8/Pyqqqry8vKXl5f29vb5+fnd3d3r6+vR0dFwcHC5ubnk5OR9fX1bW1uHh4cqKiqzs7NDQ0PX19cYGBhQUFDExMRhYWGdnZ0eHh5oaGikpKRLS0tWVlYzMzOPj48NDQ06OjpFViV9AAAGx0lEQVR4nO1b24KrKgytlnrXVqv1Ulu1//+RxxYhEQWdqbgfzqynvRnGBFiElcAcDn/4wx++hm0TQizb/EfmvZN/zYwe8TM6hrubz31jjKx0djRvBg9jis7fzQfnNmP/g4u1iwMnmf0eVarfPplbAIRStwNujKw9/DbJg/pybvBKaHag4pbi0rF5s4e2RqTTAYsPtgpE3y7chVajB0+VkZAzRPRuO7Bd0OXQhiKyyaah0xUYQjZGZMArcBxiLj41efCcOkDelERdmAuJFgfy4etoCei04EB4HzrpcMA8T0nofsb8LOFktGJ9k+ANYYBAU8Kjg8fbAtpw06AZosngjhCFEPWeE7JsBDMWF9gFB3AcHOiyfXD2Jiz4cCC7+0VsXNGIh7j53HwZjuKCU9rXh/epQHBPGpeqzXUbpUGMRvbx4DTtmU983QbXz2evE5/8iSYh1IPND4cpv1iEKkQfaPPM7GzhweizZ74T7FHXTM9moLZq3GRyF+IRFRtxg27pgaACj69pRDocYp0etEIrSZop8+e7fg26uMWk3azF5TGpB8etPaDHbjzzk1bgXUo9yGe6fgWqPTIc6SznowwuwpyX1IPNj6Zh96OjMXwZ10uQX7pxu1nQ2EVmPvIVXEqEB7SMsmfQSYOavG/twOFwEyYXosF4aiJNNODix+cNCTiAdoJDdVOmIYt2G3Fw3j3+cOCOSTdIVS3ZY0u/3RCxDXcaZspwdXhgdfTjOAInQoxwBgc0Za9s4YEKB/NmZEgIDCQwKi1T0IOdQxHQzE5RjEpZar15RGbgieNjVgTyzaEhFjAwWdRLlYkUdkAt6KxwQpLS1Hge7NTv2E8yXSSgKCEMZfc6JZZtWW5+eUJzrLuchlI1Svtu/P9Yf303jQ0F/D2q3CSS2o/1VC6myCVVzYteDo59KCbmu3ZH+29YRx9VUm8XDXpgGcT1gro9HQPH3aem/oc/bIv05Pv+JbeXe+pBwMN6+U8uKl0cy7L9rykP3ssYYYebsTECQ8Br8/RSjXbmOF/7u3aaXG5V1yN7Rom30nPiBUnAO7uQad589u9uFRXsNLoKk+fny0eBE9FFb6JPWufANVliH0xn2BJrlP3sLbNxrRf2c406l1hnN5R+Yff537K0D+Sq7KRYDDJWEBFQoGCe0wLEXGEII5Tecr+RnWSqxJP6DUVRqru7hQnIVA68R1DO+jDZdQwdyjLpHFRKB8a75xWVPURSGn4Siqyc2XWDw/iejo7urHIALWV18iCIp+XCBTxHFB5CuA4GCvSwhpHUM4aZj7B9n7l4hnh3YxmfKSfQE9fFedohr/q5PBOrgrkzLJ3KZQGfKXdg0fCNw4o82+VHSCHbc97CWmQepmSFB8tXRn4ZxEsFypsKT3yRM0blAiXviAIEtrhU5Ht8Fy7kYW5ZKPJIeC+BxYjHw3MnvYzKO9ZlRSLopnlSnkaIqrEn3SwFjJdUHcDi/TYTIiMhMnqhA095Cunhxo+U7Pf1cacDB+5oBVyggDwQcPY036g4mARMZY8vTyWfXl4duH4lIxnbsnkKPOTTyyPY46tslKmBUVUJ4nMh1RYWX6bvaoLMAXzsEIiO8odbLo9yqwXkGzZx3dBJUy84lm1UPF5sCRrUCUKMggIuDxWq4rxpW5ZFwrQPA/WpjfyieF5fjRABJnSHGpyCX2E185sj28fe4P18nbU2gwdsQwjfd7m8BCkpCYTWkmASUPEjzQUKKORA0LFOsnv7y5wZOeC2DURjpniVwCNxJ+OJLcozJZqaLwHI9pcixABRpKHCXJQkdATN2Y9qJKqgAOorMgw+wS9FUTCdWMvi16O3F7VlfQy8MHSnJkIIz6rsiLv5VEbi/Hx9nIvCv5THJE97g4RYlroKkXMKxIpz1uZb5byUkVo/rLysigIHm2virR/1mUCBSDFVFl+ora/oVlIA5EC7sQNc6ikp0IOF2I0fGlsgk+dv5gADWZeS6B/iCAp68ZhldN3urpp4+GH5co3EZJpA/ozLDr0gOa7DKRq94I7XPE8LhwmTvfElNbrL+yGu6+5d2LHczIYb1VP9JbSr7B/g8JrRht4PNQHG+QfpBouKImtc+cXeIh6TmoMKhO2dMW+StXJsgi766QPJ4RUqElZ94vU7Asa3qP7N+0yWzdxYg4WrUX5umWvxC+MUbMXbYVJQ8nvd/MnpLEwWR96nyOhqebebEPYAugvxWyej2PMumU06eu7V6PtzjDlMo9+el+kfCNtP+3uOKcZpmSK/0gcP7O/JQAx2Ru3MQAyaOkQ738GN0Odvz/0ZOIJF/tWfrf7hD/9z/AejAk6EBKW+SAAAAABJRU5ErkJggg==">
+                <img src="https://cdn-icons-png.flaticon.com/128/7168/7168645.png">  
+                <p>By Clicking Sign Up You Agree To Our <u>Terms And Conditions</u></p>
+                <button type="button" class="btn btn-lg btn-light">SIGN UP</button>
+              </div>
+            </div> 
+            
+        </div>
+        <button class="carousel-control-prev" type="button" href="#testimonial-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" href="#testimonial-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </div>
+</section>
+</body>
+</html>

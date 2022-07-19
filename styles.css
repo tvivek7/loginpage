@@ -1,0 +1,92 @@
+body
+{
+    margin-top: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+   
+    background: #f6f5f7;
+
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+.float-container {
+    text-align: center;
+    padding: 20px;
+}
+.btn-danger{
+    margin-top: 3%;
+}
+.float-child
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.float-child {
+    height: 600px;
+    width: 50%;
+    float: left;
+    padding: 30% 5%; 
+}  
+.float-scontainer {
+    text-align: center;
+    padding: 20px;
+}
+.float-schild
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.float-schild {
+    height: 600px;
+    width: 50%;
+    float: left;
+    padding: 5% 5%;
+}  
+.buttonlast
+{
+    margin-bottom: 3%;
+}
+.green2
+{
+    padding: 35% 5%;
+}
+.btn-lg{
+    text-align: left;
+}
+.heading1
+{
+  padding-bottom: 5px;
+}
+#signin
+{
+    background-color: #ffff;
+}
+#signup
+{
+    background-color: #ff416c;
+}
+#signin2
+{
+    background-color: #ff416c;
+    
+}
+#signup2
+{
+    background-color: #ffff;
+   
+}
+.makeitwhite{
+    color: #fff;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+    border: 1px solid black;
+}
+
+
+         
+
+                  
